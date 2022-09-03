@@ -10,6 +10,8 @@ namespace CuidadoPorcino.App.Persistencia
         public DbSet<Persona> Persona { get; set; }
         public DbSet<Historia> Historia { get; set; }
         public DbSet<Visita> Visita { get; set; }
+        public DbSet<Veterinario> Veterinario { get; set; }
+        public DbSet<Propietario> Propietario { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
 
