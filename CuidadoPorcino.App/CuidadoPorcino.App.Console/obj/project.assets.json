@@ -6034,24 +6034,25 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CuidadoPorcino.App.Dominio >= 1.0.0",
       "CuidadoPorcino.App.Persistencia >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\redna\\.nuget\\packages\\": {}
+    "/home/alex/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\redna\\OneDrive\\Documentos\\CuidadoPorcino2\\Ciclo-3\\CuidadoPorcino.App\\CuidadoPorcino.App.Console\\CuidadoPorcino.App.Console.csproj",
+      "projectUniqueName": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Console/CuidadoPorcino.App.Console.csproj",
       "projectName": "CuidadoPorcino.App.Console",
-      "projectPath": "C:\\Users\\redna\\OneDrive\\Documentos\\CuidadoPorcino2\\Ciclo-3\\CuidadoPorcino.App\\CuidadoPorcino.App.Console\\CuidadoPorcino.App.Console.csproj",
-      "packagesPath": "C:\\Users\\redna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\redna\\OneDrive\\Documentos\\CuidadoPorcino2\\Ciclo-3\\CuidadoPorcino.App\\CuidadoPorcino.App.Console\\obj\\",
+      "projectPath": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Console/CuidadoPorcino.App.Console.csproj",
+      "packagesPath": "/home/alex/.nuget/packages/",
+      "outputPath": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Console/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\redna\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/alex/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -6063,8 +6064,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\redna\\OneDrive\\Documentos\\CuidadoPorcino2\\Ciclo-3\\CuidadoPorcino.App\\CuidadoPorcino.App.Persistencia\\CuidadoPorcino.App.Persistencia.csproj": {
-              "projectPath": "C:\\Users\\redna\\OneDrive\\Documentos\\CuidadoPorcino2\\Ciclo-3\\CuidadoPorcino.App\\CuidadoPorcino.App.Persistencia\\CuidadoPorcino.App.Persistencia.csproj"
+            "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Dominio/CuidadoPorcino.App.Dominio.csproj": {
+              "projectPath": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Dominio/CuidadoPorcino.App.Dominio.csproj"
+            },
+            "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Persistencia/CuidadoPorcino.App.Persistencia.csproj": {
+              "projectPath": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Persistencia/CuidadoPorcino.App.Persistencia.csproj"
             }
           }
         }
@@ -6102,7 +6106,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }

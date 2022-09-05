@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CuidadoPorcino.App.Persistencia\CuidadoPorcino.App.Persistencia.csproj" />
+    <ProjectReference Include="..\CuidadoPorcino.App.Dominio\CuidadoPorcino.App.Dominio.csproj" />
   </ItemGroup>
 
 </Project>

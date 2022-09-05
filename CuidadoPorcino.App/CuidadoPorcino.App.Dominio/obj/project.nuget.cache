@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kzsBOf3m0ddt7bkZAYCSifkwZp16LH7YCXsoXrnuD1JfnWCApCJPZkPtwUYSlD+/Wv5NGjLKrn3NzoVZiEUziQ==",
+  "dgSpecHash": "chHtlMpEnLFegCbw2vYZa3RUa/mVXT/q0GYlyGi6HLRD1dEaZVosavCEbcPhXrGbPMqVrmWR5E8Td8qHO+5sfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\redna\\OneDrive\\Documentos\\CuidadoPorcino2\\Ciclo-3\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\CuidadoPorcino.App.Dominio.csproj",
+  "projectFilePath": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Dominio/CuidadoPorcino.App.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\redna\\.nuget\\packages\\": {}
+    "/home/alex/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\redna\\OneDrive\\Documentos\\CuidadoPorcino2\\Ciclo-3\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\CuidadoPorcino.App.Dominio.csproj",
+      "projectUniqueName": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Dominio/CuidadoPorcino.App.Dominio.csproj",
       "projectName": "CuidadoPorcino.App.Dominio",
-      "projectPath": "C:\\Users\\redna\\OneDrive\\Documentos\\CuidadoPorcino2\\Ciclo-3\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\CuidadoPorcino.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\redna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\redna\\OneDrive\\Documentos\\CuidadoPorcino2\\Ciclo-3\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\obj\\",
+      "projectPath": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Dominio/CuidadoPorcino.App.Dominio.csproj",
+      "packagesPath": "/home/alex/.nuget/packages/",
+      "outputPath": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Dominio/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\redna\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/alex/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
