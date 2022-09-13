@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Frontend
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Cerdo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2VyZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -27,8 +31,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Propietario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvcGlldGFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Veterinario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmV0ZXJpbmFyaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/_ViewImports.cshtml]

@@ -16,3 +16,181 @@ html {
 body {
   margin-bottom: 60px;
 }
+body {
+  background: rgb(255, 112, 166);
+  background: linear-gradient(180deg, rgba(255, 112, 166, 1) 0%, rgba(255, 112, 166, 1) 35%, rgba(255, 177, 197, 1) 100%);
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.fondoCirculos {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  background-image: url('../images/Circulos@2x.png');
+  background-size: contain;   
+  background-position: right;
+}
+
+.fondoCirculos nav {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  box-sizing: border-box;
+  /*forma en la que se distribuyen los elementos dentro del nav*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /*sombra*/
+  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+}
+
+.fondoCirculos nav .containerLogo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fondoCirculos nav .containerLogo .logo {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.fondoCirculos nav .containerLogo p {
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+.fondoCirculos nav .links{
+  display: flex;
+  gap:10px;
+}
+.fondoCirculos nav .links a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background: #E84582;
+  padding: 10px 15px;
+  border-radius: 9999px;
+  width: 150px;
+  text-align: center;
+}
+.fondoCirculos nav .links a:hover{
+  background: #a82c59;
+  cursor: pointer;
+}
+
+section.content {
+  flex: 1 1 0%;
+  overflow: auto;
+  display: flex;
+  box-sizing: border-box;
+  padding: 5px;
+  gap: 5px;
+}
+section.content section {
+  flex: 1 1 0%;
+}
+section.content section.form {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.content section.form form{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  gap: 10px;
+}
+section.content section.form form input{
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+
+  /*sombra*/
+  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+}
+section.content section.form form button{
+  height: 40px;
+  border: none;
+  color: white;
+  background-color: #E84582;
+  font-weight: bold;
+  border-radius: 20px;
+}
+section.content section.form form button:hover{
+  cursor:pointer;
+  background-color: #a82c59;
+  /*sombra*/
+  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+  transform: scale(1.1);
+}
+section.content section.form form p{
+  color:#E84582;
+  font-weight: bold;
+}
+section.content section.form p.title{
+  background: #E84582;
+  padding: 10px 20px;
+  font-weight: bold;
+  color:white;
+  border-radius: 9999px;
+}
+section.content section.foto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section.content section.foto .size{
+  width: 80%;
+}
+section.content section.foto .size .molde{
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+section.content section.foto .size .molde .cont{
+  position: absolute;
+  background-color: white;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+  /*sombra*/
+  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+
+}
+
+section.content section.foto .size .molde .cont img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

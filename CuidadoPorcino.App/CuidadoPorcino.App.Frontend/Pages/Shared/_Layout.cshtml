@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - CuidadoPorcino</title>
-    
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />    
     <link rel="stylesheet" href="~/CuidadoPorcino.App.Frontend.styles.css" asp-append-version="true" />
 </head>
 <body>
@@ -16,33 +16,14 @@
                 <p>Cuidado Porcino</p>
             </div>
             <div class="links">
-                <a href="index.html">Cerdos</a>
-                <a href="propietario.html">Propietarios</a>
-                <a href="veterinario.html">Veterinarios</a>
+                <a asp-page="/Index">Inicio</a>
+                <a asp-page="/Cerdo">Cerdos</a>
+                <a asp-page="/Propietario">Propietarios</a>
+                <a asp-page="/Veterinario">Veterinarios</a>
             </div>
         </nav>
         <section class="content">
             @RenderBody()
-            <section class="form">
-                <p class="title">Cerdo</p>
-                <form action="#">
-                    <p>Por favor ingrese los siguientes datos</p>
-                    <input type="text" placeholder="Nombres" name="" id="">
-                    <input type="text" placeholder="Color" name="" id="">
-                    <input type="text" placeholder="Especie" name="" id="">
-                    <input type="text" placeholder="Raza" name="" id="">
-                    <button type="submit">Guardar</button>
-                </form>
-            </section>
-            <section class="foto">
-                <div class="size">
-                    <div class="molde">
-                        <div class="cont">
-                            <img src="./images/cerdo.jpg" alt="cerdo">
-                        </div>
-                    </div>
-                </div>
-            </section>
         </section>
     </div>
 
