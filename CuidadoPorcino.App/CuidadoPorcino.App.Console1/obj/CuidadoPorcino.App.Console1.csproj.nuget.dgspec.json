@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Console1/CuidadoPorcino.App.Console1.csproj": {}
+  },
+  "projects": {
+    "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Console1/CuidadoPorcino.App.Console1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Console1/CuidadoPorcino.App.Console1.csproj",
+        "projectName": "CuidadoPorcino.App.Console1",
+        "projectPath": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Console1/CuidadoPorcino.App.Console1.csproj",
+        "packagesPath": "/home/alex/.nuget/packages/",
+        "outputPath": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Console1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alex/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Dominio/CuidadoPorcino.App.Dominio.csproj": {
+                "projectPath": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Dominio/CuidadoPorcino.App.Dominio.csproj"
+              },
+              "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Persistencia/CuidadoPorcino.App.Persistencia.csproj": {
+                "projectPath": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Persistencia/CuidadoPorcino.App.Persistencia.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Dominio/CuidadoPorcino.App.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Dominio/CuidadoPorcino.App.Dominio.csproj",
+        "projectName": "CuidadoPorcino.App.Dominio",
+        "projectPath": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Dominio/CuidadoPorcino.App.Dominio.csproj",
+        "packagesPath": "/home/alex/.nuget/packages/",
+        "outputPath": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Dominio/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alex/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Persistencia/CuidadoPorcino.App.Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Persistencia/CuidadoPorcino.App.Persistencia.csproj",
+        "projectName": "CuidadoPorcino.App.Persistencia",
+        "projectPath": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Persistencia/CuidadoPorcino.App.Persistencia.csproj",
+        "packagesPath": "/home/alex/.nuget/packages/",
+        "outputPath": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Persistencia/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alex/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Dominio/CuidadoPorcino.App.Dominio.csproj": {
+                "projectPath": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Dominio/CuidadoPorcino.App.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

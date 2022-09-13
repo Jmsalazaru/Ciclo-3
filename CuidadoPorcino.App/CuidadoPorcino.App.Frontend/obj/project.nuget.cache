@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xSX3hSam44RMJ3BmpttT/nOtnC1Qp/a9ldoNQ1EMS5uyRic71rOw1l3kNO+Bp8FtVykTfFZre1G1P+ng1C3hyg==",
+  "success": true,
+  "projectFilePath": "/home/alex/Documentos/Ciclo-3/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/CuidadoPorcino.App.Frontend.csproj",
+  "expectedPackageFiles": [
+    "/home/alex/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/alex/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/alex/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

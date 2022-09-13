@@ -1,0 +1,179 @@
+/* _content/CuidadoPorcino.App.Frontend/Pages/Shared/_Layout.cshtml.rz.scp.css */
+body[b-jzn3bgwsir] {
+  background: rgb(255, 112, 166);
+  background: linear-gradient(180deg, rgba(255, 112, 166, 1) 0%, rgba(255, 112, 166, 1) 35%, rgba(255, 177, 197, 1) 100%);
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.fondoCirculos[b-jzn3bgwsir] {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  background-image: url('../images/Circulos@2x.png');
+  background-size: contain;   
+  background-position: right;
+}
+
+.fondoCirculos nav[b-jzn3bgwsir] {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  box-sizing: border-box;
+  /*forma en la que se distribuyen los elementos dentro del nav*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /*sombra*/
+  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+}
+
+.fondoCirculos nav .containerLogo[b-jzn3bgwsir] {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fondoCirculos nav .containerLogo .logo[b-jzn3bgwsir] {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.fondoCirculos nav .containerLogo p[b-jzn3bgwsir] {
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+.fondoCirculos nav .links[b-jzn3bgwsir]{
+  display: flex;
+  gap:10px;
+}
+.fondoCirculos nav .links a[b-jzn3bgwsir]{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background: #E84582;
+  padding: 10px 15px;
+  border-radius: 9999px;
+  width: 150px;
+  text-align: center;
+}
+.fondoCirculos nav .links a:hover[b-jzn3bgwsir]{
+  background: #a82c59;
+  cursor: pointer;
+}
+
+section.content[b-jzn3bgwsir] {
+  flex: 1 1 0%;
+  overflow: auto;
+  display: flex;
+  box-sizing: border-box;
+  padding: 5px;
+  gap: 5px;
+}
+section.content section[b-jzn3bgwsir] {
+  flex: 1 1 0%;
+}
+section.content section.form[b-jzn3bgwsir] {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.content section.form form[b-jzn3bgwsir]{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  gap: 10px;
+}
+section.content section.form form input[b-jzn3bgwsir]{
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+
+  /*sombra*/
+  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+}
+section.content section.form form button[b-jzn3bgwsir]{
+  height: 40px;
+  border: none;
+  color: white;
+  background-color: #E84582;
+  font-weight: bold;
+  border-radius: 20px;
+}
+section.content section.form form button:hover[b-jzn3bgwsir]{
+  cursor:pointer;
+  background-color: #a82c59;
+  /*sombra*/
+  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+  transform: scale(1.1);
+}
+section.content section.form form p[b-jzn3bgwsir]{
+  color:#E84582;
+  font-weight: bold;
+}
+section.content section.form p.title[b-jzn3bgwsir]{
+  background: #E84582;
+  padding: 10px 20px;
+  font-weight: bold;
+  color:white;
+  border-radius: 9999px;
+}
+section.content section.foto[b-jzn3bgwsir]{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section.content section.foto .size[b-jzn3bgwsir]{
+  width: 80%;
+}
+section.content section.foto .size .molde[b-jzn3bgwsir]{
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+section.content section.foto .size .molde .cont[b-jzn3bgwsir]{
+  position: absolute;
+  background-color: white;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+  /*sombra*/
+  -webkit-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+  box-shadow: 10px 10px 16px -10px rgba(0, 0, 0, 0.73);
+
+}
+
+section.content section.foto .size .molde .cont img[b-jzn3bgwsir]{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
